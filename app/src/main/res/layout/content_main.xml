@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#9dbc9a"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:id="@+id/actionBarTop"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/mintt">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="28dp"
+            android:src="@drawable/logoxx" />
+
+        <Button
+            android:id="@+id/menuBtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/menu"/>
+
+        <Button
+            android:id="@+id/yenilebtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/home_btn" />
+
+        <Button
+            android:id="@+id/iletisim"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/mail"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionBarTop"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="120dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:background="@color/white"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

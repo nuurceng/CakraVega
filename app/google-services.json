@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "824159169593",
+    "project_id": "meditasyonproject-603b3",
+    "storage_bucket": "meditasyonproject-603b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824159169593:android:17669b6f9172ae5d0371e8",
+        "android_client_info": {
+          "package_name": "com.example.meditasyonproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824159169593-seuolibo154q1q6mm69vdt35p2o3h5mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNLw5x8PJMWTIEgFrjLDriZtnAB0zht5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824159169593-seuolibo154q1q6mm69vdt35p2o3h5mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

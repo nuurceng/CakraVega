@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivity"
+    android:background="@drawable/detaybackk">
+    <ImageView
+        android:id="@+id/detayImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_above="@+id/seekbarPlay"
+        android:padding="10dp"
+        android:layout_margin="30dp"/>
+
+    <SeekBar
+        android:id="@+id/seekbarPlay"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/txtBas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:layout_below="@+id/seekbarPlay"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtSon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:layout_below="@id/seekbarPlay"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/seekbarPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/play"/>
+
+    <Button
+        android:id="@+id/btnFavori"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnPlay"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/fv" />
+
+</RelativeLayout>
